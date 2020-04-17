@@ -87,10 +87,7 @@ static byte BROADCAST_ID = 0xFE;
 
 class HerkulexClass {
 public:
-  void  begin(long baud, int rx, int tx);
-  void  beginSerial1(long baud);
-  void  beginSerial2(long baud);
-  void  beginSerial3(long baud);
+  void  begin(long baud);
   void  end();
   
   void  initialize();
